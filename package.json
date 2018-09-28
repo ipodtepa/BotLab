@@ -1,0 +1,22 @@
+{
+  "name": "botlab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipodtepa/BotLab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipodtepa/BotLab/issues"
+  },
+  "homepage": "https://github.com/ipodtepa/BotLab#readme",
+  "dependencies": {
+    "botbuilder": "^3.15.0"
+  }
+}
