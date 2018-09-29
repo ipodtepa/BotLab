@@ -26,8 +26,8 @@ server.post('/api/messages', connector.listen());
 
 // Listen for messages from users 
 //server.get('/test', connector.listen());
-//server.post('/hello/:name', respond);
-server.post('/hello/:name', connector.listen());
+server.get('/hello/:name', respond);
+//server.post('/hello/:name', connector.listen());
 
 
 // Receive messages from the user and respond by echoing each message back (prefixed with 'You said:')
@@ -37,7 +37,7 @@ var bot = new builder.UniversalBot(connector, function (session) {
 
 
 //create a server object:
-http.createServer(function (req, res) {
-    res.write('Hello World!'); //write a response to the client
-    res.end(); //end the response
-  }).listen(81); //the server object listens on port 8080
+//http.createServer(function (req, res) {
+//    res.write('Hello World!'); //write a response to the client
+ //   res.end(); //end the response
+  //}).listen(81); //the server object listens on port 8080
